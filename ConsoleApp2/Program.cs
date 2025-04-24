@@ -26,15 +26,18 @@ namespace ConsoleApp2
                     Console.WriteLine("tienes hipoglusemia?(si /no): ");
                     string respuesta3 = Console.ReadLine();
                     
-                        if (respuesta3 == "si ")
+                        if (respuesta3 == "si")
                     {
-                        Console.WriteLine("usted es candidato a covid");
+                        Console.WriteLine("usted tiene covid");
+                       
+                        
+
                     }
 
 
                     else 
                     {
-                        Console.WriteLine("usted tiene un infeccion");
+                        Console.WriteLine("usted tiene una infeccion");
                     }
 
 
